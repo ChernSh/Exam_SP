@@ -9,6 +9,9 @@ namespace Exam
 {
     internal static class Program
     {
+        //для запуску програми в консольному режимі необхідно змінити
+        //RUN_AS_CONSOLE_APP на true, змінити тип виводу на Console Application
+        //для цього: права клавіша на проект -> Властивості -> Тип виводу -> Console Application
         private const bool RUN_AS_CONSOLE_APP = false;
 
         [STAThread]
